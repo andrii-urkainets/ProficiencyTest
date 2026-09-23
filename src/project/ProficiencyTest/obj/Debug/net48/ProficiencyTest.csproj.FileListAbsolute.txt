@@ -1,0 +1,11 @@
+C:\projects\ProficiencyTest\App_Data\Projects\ProficiencyTest\ProficiencyTest\bin\Debug\net48\ProficiencyTest.dll
+C:\projects\ProficiencyTest\App_Data\Projects\ProficiencyTest\ProficiencyTest\bin\Debug\net48\ProficiencyTest.pdb
+C:\projects\ProficiencyTest\App_Data\Projects\ProficiencyTest\ProficiencyTest\bin\Debug\net48\Microsoft.Bcl.AsyncInterfaces.dll
+C:\projects\ProficiencyTest\App_Data\Projects\ProficiencyTest\ProficiencyTest\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\projects\ProficiencyTest\App_Data\Projects\ProficiencyTest\ProficiencyTest\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\projects\ProficiencyTest\App_Data\Projects\ProficiencyTest\ProficiencyTest\obj\Debug\net48\ProficiencyTest.csproj.AssemblyReference.cache
+C:\projects\ProficiencyTest\App_Data\Projects\ProficiencyTest\ProficiencyTest\obj\Debug\net48\ProficiencyTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\ProficiencyTest\App_Data\Projects\ProficiencyTest\ProficiencyTest\obj\Debug\net48\ProficiencyTest.csproj.CoreCompileInputs.cache
+C:\projects\ProficiencyTest\App_Data\Projects\ProficiencyTest\ProficiencyTest\obj\Debug\net48\Proficie.8D8CF3B4.Up2Date
+C:\projects\ProficiencyTest\App_Data\Projects\ProficiencyTest\ProficiencyTest\obj\Debug\net48\ProficiencyTest.dll
+C:\projects\ProficiencyTest\App_Data\Projects\ProficiencyTest\ProficiencyTest\obj\Debug\net48\ProficiencyTest.pdb
