@@ -55,51 +55,32 @@ namespace ProficiencyTest
         public abstract class unitPrice : PX.Data.BQL.BqlDecimal.Field<unitPrice> { }
         #endregion
 
-        //#region TypeOfCommand
-        //public abstract class typeOfCommand : BqlString.Field<typeOfCommand>
-        //{
-        //}
-        //[PXDBString(1, IsFixed = true)]
-        //[PXDefault(CommandTypes.Manual)]
-        //[PXUIField(DisplayName = "Type Of Command")]
-        //[PXStringList(
-        //    new[]
-        //    {
-        //        CommandTypes.Manual,
-        //        CommandTypes.Schedule
-        //    },
-        //    new[]
-        //    {
-        //        "Manual",
-        //        "Schedule"
-        //    })]
-        //public virtual string TypeOfCommand { get; set; }
+        #region TypeOfCommand
+        public abstract class typeOfCommand : BqlString.Field<typeOfCommand> { }
 
-        //#endregion
+        [PXDBString(1, IsFixed = true, IsUnicode = false)]
+        [PXDefault(CommandTypes.Manual, PersistingCheck = PXPersistingCheck.Nothing)]
+        [PXUIField(DisplayName = "Type Of Command")]
+        [PXStringList(
+            new[]
+            {
+                CommandTypes.Manual,
+                CommandTypes.Schedule
+            },
+            new[]
+            {
+                "Manual",
+                "Schedule"
+            })]
+        public virtual string TypeOfCommand { get; set; }
+        #endregion
 
-        //#region ManualCommand
+        #region Command
+        public abstract class command : BqlString.Field<command> { }
 
-        //public abstract class manualCommand : BqlBool.Field<manualCommand>
-        //{
-        //}
-
-        //[PXDBBool]
-        //[PXDefault(false)]
-        //[PXUIField(DisplayName = "Command")]
-        //public virtual bool? ManualCommand { get; set; }
-
-        //#endregion
-
-        //#region ScheduledCommand
-
-        //public abstract class scheduledCommand : BqlDateTime.Field<scheduledCommand>
-        //{
-        //}
-
-        //[PXDBDate]
-        //[PXUIField(DisplayName = "Command")]
-        //public virtual DateTime? ScheduledCommand { get; set; }
-
-        //#endregion
+        [PXDBString(30, IsUnicode = true)]
+        [PXUIField(DisplayName = "Command")]
+        public virtual string Command { get; set; }
+        #endregion
     }
 }

@@ -1,0 +1,284 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|c:\\projects\\proficiencytest\\app_data\\projects\\proficiencytest\\proficiencytest\\so\\graphs\\sosalestargetmaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|solutionrelative:proficiencytest\\so\\graphs\\sosalestargetmaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|c:\\projects\\proficiencytest\\app_data\\projects\\proficiencytest\\proficiencytest\\so\\dac\\sosalestarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|solutionrelative:proficiencytest\\so\\dac\\sosalestarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|c:\\projects\\proficiencytest\\app_data\\projects\\proficiencytest\\proficiencytest\\so\\graphs\\soordermanagementmaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|solutionrelative:proficiencytest\\so\\graphs\\soordermanagementmaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|c:\\projects\\proficiencytest\\app_data\\projects\\proficiencytest\\proficiencytest\\so\\dac\\soordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|solutionrelative:proficiencytest\\so\\dac\\soordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|c:\\projects\\proficiencytest\\app_data\\projects\\proficiencytest\\proficiencytest\\so\\cacheextensions\\sosetupext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|solutionrelative:proficiencytest\\so\\cacheextensions\\sosetupext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|c:\\projects\\proficiencytest\\app_data\\projects\\proficiencytest\\proficiencytest\\so\\graphextensions\\soorderentryext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|solutionrelative:proficiencytest\\so\\graphextensions\\soorderentryext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407B75C1-DF84-479F-BD54-F5A5D7012034}|C:\\projects\\ProficiencyTest|c:\\projects\\proficiencytest\\app_data\\coderepository\\px.objects\\ar\\dac\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407B75C1-DF84-479F-BD54-F5A5D7012034}|C:\\projects\\ProficiencyTest|c:\\projects\\proficiencytest\\app_data\\coderepository\\px.objects\\cr\\dac\\baccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|c:\\projects\\proficiencytest\\app_data\\projects\\proficiencytest\\proficiencytest\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|solutionrelative:proficiencytest\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|c:\\projects\\proficiencytest\\app_data\\projects\\proficiencytest\\proficiencytest\\so\\descriptors\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|solutionrelative:proficiencytest\\so\\descriptors\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|c:\\projects\\proficiencytest\\app_data\\projects\\proficiencytest\\proficiencytest\\so\\descriptors\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC6D61A-5D4B-4D57-BC6B-5E3F9D04377E}|ProficiencyTest\\ProficiencyTest.csproj|solutionrelative:proficiencytest\\so\\descriptors\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407B75C1-DF84-479F-BD54-F5A5D7012034}|C:\\projects\\ProficiencyTest|c:\\projects\\proficiencytest\\app_data\\coderepository\\px.objects\\cr\\graphextensions\\details\\defcontactaddressext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aukra\\AppData\\Local\\Temp\\.vsdbgsrc\\4af3997d669a66709f0de5baa9b1153baeb51940b0fd7a63f4fcd6d0783d2c5a\\FormService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aukra\\AppData\\Local\\Temp\\.vsdbgsrc\\f3a6e82585e030fc7880a538aba6c010d018bfbb75abdaf4d9320c3c204b7f7c\\PXGraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407B75C1-DF84-479F-BD54-F5A5D7012034}|C:\\projects\\ProficiencyTest|c:\\projects\\proficiencytest\\app_data\\coderepository\\px.objects\\ar\\customermaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{407B75C1-DF84-479F-BD54-F5A5D7012034}|C:\\projects\\ProficiencyTest|c:\\projects\\proficiencytest\\app_data\\coderepository\\px.commerce.amazon\\domain\\orders\\salesorderbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DefContactAddressExt.cs",
+              "DocumentMoniker": "C:\\projects\\ProficiencyTest\\App_Data\\CodeRepository\\PX.Objects\\CR\\GraphExtensions\\Details\\DefContactAddressExt.cs",
+              "RelativeDocumentMoniker": "..\\..\\CodeRepository\\PX.Objects\\CR\\GraphExtensions\\Details\\DefContactAddressExt.cs",
+              "ToolTip": "C:\\projects\\ProficiencyTest\\App_Data\\CodeRepository\\PX.Objects\\CR\\GraphExtensions\\Details\\DefContactAddressExt.cs",
+              "RelativeToolTip": "..\\..\\CodeRepository\\PX.Objects\\CR\\GraphExtensions\\Details\\DefContactAddressExt.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T07:37:57.547Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SOOrderManagement.cs",
+              "DocumentMoniker": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\DAC\\SOOrderManagement.cs",
+              "RelativeDocumentMoniker": "ProficiencyTest\\SO\\DAC\\SOOrderManagement.cs",
+              "ToolTip": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\DAC\\SOOrderManagement.cs",
+              "RelativeToolTip": "ProficiencyTest\\SO\\DAC\\SOOrderManagement.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAywEUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T13:10:56.906Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SOSalesTarget.cs",
+              "DocumentMoniker": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\DAC\\SOSalesTarget.cs",
+              "RelativeDocumentMoniker": "ProficiencyTest\\SO\\DAC\\SOSalesTarget.cs",
+              "ToolTip": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\DAC\\SOSalesTarget.cs",
+              "RelativeToolTip": "ProficiencyTest\\SO\\DAC\\SOSalesTarget.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwDEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T12:54:21.907Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SOSalesTargetMaint.cs",
+              "DocumentMoniker": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\Graphs\\SOSalesTargetMaint.cs",
+              "RelativeDocumentMoniker": "ProficiencyTest\\SO\\Graphs\\SOSalesTargetMaint.cs",
+              "ToolTip": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\Graphs\\SOSalesTargetMaint.cs",
+              "RelativeToolTip": "ProficiencyTest\\SO\\Graphs\\SOSalesTargetMaint.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwJMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T12:54:52.268Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SOOrderManagementMaint.cs",
+              "DocumentMoniker": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\Graphs\\SOOrderManagementMaint.cs",
+              "RelativeDocumentMoniker": "ProficiencyTest\\SO\\Graphs\\SOOrderManagementMaint.cs",
+              "ToolTip": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\Graphs\\SOOrderManagementMaint.cs",
+              "RelativeToolTip": "ProficiencyTest\\SO\\Graphs\\SOOrderManagementMaint.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwCgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T13:18:47.181Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BAccount.cs",
+              "DocumentMoniker": "C:\\projects\\ProficiencyTest\\App_Data\\CodeRepository\\PX.Objects\\CR\\DAC\\BAccount.cs",
+              "RelativeDocumentMoniker": "..\\..\\CodeRepository\\PX.Objects\\CR\\DAC\\BAccount.cs",
+              "ToolTip": "C:\\projects\\ProficiencyTest\\App_Data\\CodeRepository\\PX.Objects\\CR\\DAC\\BAccount.cs",
+              "RelativeToolTip": "..\\..\\CodeRepository\\PX.Objects\\CR\\DAC\\BAccount.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAnwP0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T08:02:45.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormService.cs",
+              "DocumentMoniker": "C:\\Users\\aukra\\AppData\\Local\\Temp\\.vsdbgsrc\\4af3997d669a66709f0de5baa9b1153baeb51940b0fd7a63f4fcd6d0783d2c5a\\FormService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\aukra\\AppData\\Local\\Temp\\.vsdbgsrc\\4af3997d669a66709f0de5baa9b1153baeb51940b0fd7a63f4fcd6d0783d2c5a\\FormService.cs",
+              "ToolTip": "C:\\Users\\aukra\\AppData\\Local\\Temp\\.vsdbgsrc\\4af3997d669a66709f0de5baa9b1153baeb51940b0fd7a63f4fcd6d0783d2c5a\\FormService.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\aukra\\AppData\\Local\\Temp\\.vsdbgsrc\\4af3997d669a66709f0de5baa9b1153baeb51940b0fd7a63f4fcd6d0783d2c5a\\FormService.cs [Read Only]",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAYwKMAAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T11:21:31.442Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PXGraph.cs",
+              "DocumentMoniker": "C:\\Users\\aukra\\AppData\\Local\\Temp\\.vsdbgsrc\\f3a6e82585e030fc7880a538aba6c010d018bfbb75abdaf4d9320c3c204b7f7c\\PXGraph.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\aukra\\AppData\\Local\\Temp\\.vsdbgsrc\\f3a6e82585e030fc7880a538aba6c010d018bfbb75abdaf4d9320c3c204b7f7c\\PXGraph.cs",
+              "ToolTip": "C:\\Users\\aukra\\AppData\\Local\\Temp\\.vsdbgsrc\\f3a6e82585e030fc7880a538aba6c010d018bfbb75abdaf4d9320c3c204b7f7c\\PXGraph.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\aukra\\AppData\\Local\\Temp\\.vsdbgsrc\\f3a6e82585e030fc7880a538aba6c010d018bfbb75abdaf4d9320c3c204b7f7c\\PXGraph.cs [Read Only]",
+              "ViewState": "AgIAABMIAAAAAAAAAAAowCMIAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T11:18:30.601Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\Descriptors\\Constants.cs",
+              "RelativeDocumentMoniker": "ProficiencyTest\\SO\\Descriptors\\Constants.cs",
+              "ToolTip": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\Descriptors\\Constants.cs",
+              "RelativeToolTip": "ProficiencyTest\\SO\\Descriptors\\Constants.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T12:40:55.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SOSetupExt.cs",
+              "DocumentMoniker": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\CacheExtensions\\SOSetupExt.cs",
+              "RelativeDocumentMoniker": "ProficiencyTest\\SO\\CacheExtensions\\SOSetupExt.cs",
+              "ToolTip": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\CacheExtensions\\SOSetupExt.cs",
+              "RelativeToolTip": "ProficiencyTest\\SO\\CacheExtensions\\SOSetupExt.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T09:38:46.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Messages.cs",
+              "DocumentMoniker": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\Descriptors\\Messages.cs",
+              "RelativeDocumentMoniker": "ProficiencyTest\\SO\\Descriptors\\Messages.cs",
+              "ToolTip": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\Descriptors\\Messages.cs",
+              "RelativeToolTip": "ProficiencyTest\\SO\\Descriptors\\Messages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T13:16:21.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SOOrderEntryExt.cs",
+              "DocumentMoniker": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\GraphExtensions\\SOOrderEntryExt.cs",
+              "RelativeDocumentMoniker": "ProficiencyTest\\SO\\GraphExtensions\\SOOrderEntryExt.cs",
+              "ToolTip": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\SO\\GraphExtensions\\SOOrderEntryExt.cs",
+              "RelativeToolTip": "ProficiencyTest\\SO\\GraphExtensions\\SOOrderEntryExt.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwE0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T13:16:03.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SalesOrderBuilder.cs",
+              "DocumentMoniker": "C:\\projects\\ProficiencyTest\\App_Data\\CodeRepository\\PX.Commerce.Amazon\\Domain\\Orders\\SalesOrderBuilder.cs",
+              "RelativeDocumentMoniker": "..\\..\\CodeRepository\\PX.Commerce.Amazon\\Domain\\Orders\\SalesOrderBuilder.cs",
+              "ToolTip": "C:\\projects\\ProficiencyTest\\App_Data\\CodeRepository\\PX.Commerce.Amazon\\Domain\\Orders\\SalesOrderBuilder.cs",
+              "RelativeToolTip": "..\\..\\CodeRepository\\PX.Commerce.Amazon\\Domain\\Orders\\SalesOrderBuilder.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T06:46:50.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerMaint.cs",
+              "DocumentMoniker": "C:\\projects\\ProficiencyTest\\App_Data\\CodeRepository\\PX.Objects\\AR\\CustomerMaint.cs",
+              "RelativeDocumentMoniker": "..\\..\\CodeRepository\\PX.Objects\\AR\\CustomerMaint.cs",
+              "ToolTip": "C:\\projects\\ProficiencyTest\\App_Data\\CodeRepository\\PX.Objects\\AR\\CustomerMaint.cs",
+              "RelativeToolTip": "..\\..\\CodeRepository\\PX.Objects\\AR\\CustomerMaint.cs",
+              "ViewState": "AgIAADYJAAAAAAAAAAAuwEQJAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T19:10:18.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\projects\\ProficiencyTest\\App_Data\\CodeRepository\\PX.Objects\\AR\\DAC\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\..\\CodeRepository\\PX.Objects\\AR\\DAC\\Customer.cs",
+              "ToolTip": "C:\\projects\\ProficiencyTest\\App_Data\\CodeRepository\\PX.Objects\\AR\\DAC\\Customer.cs",
+              "RelativeToolTip": "..\\..\\CodeRepository\\PX.Objects\\AR\\DAC\\Customer.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwDEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T19:20:51.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "ProficiencyTest\\BaseEntity.cs",
+              "ToolTip": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\BaseEntity.cs",
+              "RelativeToolTip": "ProficiencyTest\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T12:27:13.694Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

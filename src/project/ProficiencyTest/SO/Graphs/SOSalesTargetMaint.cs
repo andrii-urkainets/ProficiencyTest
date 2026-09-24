@@ -1,3 +1,5 @@
+using System;
+using System.Globalization;
 using PX.Data;
 using PX.Data.BQL;
 using PX.Data.BQL.Fluent;
@@ -73,52 +75,118 @@ namespace ProficiencyTest
                 ErrorMessages.DuplicateSalesTarget);
         }
 
-        //protected virtual void _(Events.RowSelected<SOSalesTarget> e)
-        //{
-        //    if (e.Row == null)
-        //        return;
+        protected virtual void _(Events.FieldUpdated<SOSalesTarget, SOSalesTarget.typeOfCommand> e)
+        {
+            if (e.Row == null)
+                return;
 
-        //    bool isManual =
-        //        e.Row.TypeOfCommand == CommandTypes.Manual;
+            e.Cache.SetValue<SOSalesTarget.command>(e.Row, null);
+        }
 
-        //    bool isSchedule =
-        //        e.Row.TypeOfCommand == CommandTypes.Schedule;
+        protected virtual void _(Events.FieldSelecting<SOSalesTarget, SOSalesTarget.command> e)
+        {
+            if (e.Row == null)
+                return;
 
-        //    PXUIFieldAttribute.SetVisible<SOSalesTarget.manualCommand>(
-        //        e.Cache,
-        //        e.Row,
-        //        isManual);
+            bool isManual = e.Row.TypeOfCommand == CommandTypes.Manual;
+            bool isSchedule = e.Row.TypeOfCommand == CommandTypes.Schedule;
+            object value = e.ReturnValue;
 
-        //    PXUIFieldAttribute.SetVisible<SOSalesTarget.scheduledCommand>(
-        //        e.Cache,
-        //        e.Row,
-        //        isSchedule);
+            if (isManual)
+            {
+                e.ReturnValue = ToBoolean(value);
+                e.ReturnState = CreateCommandState(e.ReturnValue, typeof(bool), true);
+                return;
+            }
 
-        //    PXUIFieldAttribute.SetEnabled<SOSalesTarget.manualCommand>(
-        //        e.Cache,
-        //        e.Row,
-        //        isManual);
+            if (isSchedule)
+            {
+                e.ReturnValue = ToDate(value);
+                e.ReturnState = CreateCommandState(e.ReturnValue, typeof(DateTime), true);
+                return;
+            }
 
-        //    PXUIFieldAttribute.SetEnabled<SOSalesTarget.scheduledCommand>(
-        //        e.Cache,
-        //        e.Row,
-        //        isSchedule);
-        //}
+            e.ReturnValue = null;
+            e.ReturnState = CreateCommandState(null, typeof(string), false);
+        }
 
-        //protected virtual void _(Events.FieldUpdated<SOSalesTarget, SOSalesTarget.typeOfCommand> e)
-        //{
-        //    if (e.Row == null)
-        //        return;
+        protected virtual void _(Events.FieldUpdating<SOSalesTarget, SOSalesTarget.command> e)
+        {
+            if (e.Row == null)
+                return;
 
-        //    if (e.Row.TypeOfCommand == CommandTypes.Manual)
-        //    {
-        //        e.Row.ScheduledCommand = null;
-        //    }
-        //    else if (e.Row.TypeOfCommand == CommandTypes.Schedule)
-        //    {
-        //        e.Row.ManualCommand = false;
-        //    }
-        //}
+            if (e.Row.TypeOfCommand == CommandTypes.Manual)
+            {
+                bool? value = ToBoolean(e.NewValue);
+                e.NewValue = value == null ? null : value == true ? "1" : "0";
+                return;
+            }
+
+            if (e.Row.TypeOfCommand == CommandTypes.Schedule)
+            {
+                DateTime? value = ToDate(e.NewValue);
+                e.NewValue = value?.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture);
+                return;
+            }
+
+            e.NewValue = null;
+        }
         #endregion
+
+        private static PXFieldState CreateCommandState(object value, Type dataType, bool enabled)
+        {
+            return PXFieldState.CreateInstance(
+                value,
+                dataType,
+                null,
+                true,
+                null,
+                null,
+                null,
+                null,
+                nameof(SOSalesTarget.Command),
+                null,
+                "Command",
+                null,
+                PXErrorLevel.Undefined,
+                enabled,
+                true,
+                !enabled,
+                PXUIVisibility.Visible,
+                null,
+                null,
+                null);
+        }
+
+        private static bool? ToBoolean(object value)
+        {
+            if (value == null || value is string text && text.Length == 0)
+                return null;
+
+            if (value is bool boolean)
+                return boolean;
+
+            string stored = Convert.ToString(value, CultureInfo.InvariantCulture);
+            if (stored == "1" || string.Equals(stored, "true", StringComparison.OrdinalIgnoreCase))
+                return true;
+            if (stored == "0" || string.Equals(stored, "false", StringComparison.OrdinalIgnoreCase))
+                return false;
+
+            return null;
+        }
+
+        private static DateTime? ToDate(object value)
+        {
+            if (value == null || value is string text && text.Length == 0)
+                return null;
+
+            if (value is DateTime date)
+                return date.Date;
+
+            if (DateTime.TryParse(Convert.ToString(value, CultureInfo.InvariantCulture), CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime parsed))
+                return parsed.Date;
+
+            return null;
+        }
     }
 }

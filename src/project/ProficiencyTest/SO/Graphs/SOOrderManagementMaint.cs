@@ -76,21 +76,13 @@ namespace ProficiencyTest
             Visibility = PXUIVisibility.SelectorVisible, DisplayName = "Account ID")]
         protected virtual void _(Events.CacheAttached<Customer.acctCD> e) { }
 
+        #region Events
 
-        protected virtual void _(Events.RowSelected<SOOrder> e)
+        protected virtual void _(Events.FieldSelecting<SOOrderManagement, SOOrderManagement.currentOrderNbr> e)
         {
-            if (e.Row == null)
-                return;
-
-            SOOrderManagement document = Document.Current;
-
-            if (document == null)
-                return;
-
-            Document.Cache.SetValue<SOOrderManagement.currentOrderNbr>(
-                document,
-                e.Row.OrderNbr
-            );
+            e.ReturnValue = SalesOrders.Current?.OrderNbr;
         }
+
+        #endregion
     }
 }

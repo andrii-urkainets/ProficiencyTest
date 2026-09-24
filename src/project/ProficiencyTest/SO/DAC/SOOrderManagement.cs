@@ -67,6 +67,7 @@ namespace ProficiencyTest
 
         [PXString(15, IsUnicode = false)]
         [PXUIField(DisplayName = "Current Order Nbr.", Enabled = false)]
+        [PXUnboundDefault]
         public virtual string CurrentOrderNbr { get; set; }
 
         #endregion

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\ProficiencyTest.csproj": {}
+    "C:\\projects\\ProficiencyTest\\ProficiencyTest\\src\\project\\ProficiencyTest\\ProficiencyTest.csproj": {}
   },
   "projects": {
-    "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\ProficiencyTest.csproj": {
+    "C:\\projects\\ProficiencyTest\\ProficiencyTest\\src\\project\\ProficiencyTest\\ProficiencyTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\ProficiencyTest.csproj",
+        "projectUniqueName": "C:\\projects\\ProficiencyTest\\ProficiencyTest\\src\\project\\ProficiencyTest\\ProficiencyTest.csproj",
         "projectName": "ProficiencyTest",
-        "projectPath": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\ProficiencyTest.csproj",
+        "projectPath": "C:\\projects\\ProficiencyTest\\ProficiencyTest\\src\\project\\ProficiencyTest\\ProficiencyTest.csproj",
         "packagesPath": "C:\\Users\\aukra\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\obj\\",
+        "outputPath": "C:\\projects\\ProficiencyTest\\ProficiencyTest\\src\\project\\ProficiencyTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DwY4nldc9to=",
+  "dgSpecHash": "5n9Iw3UDBRY=",
   "success": true,
-  "projectFilePath": "C:\\projects\\ProficiencyTest\\App_Data\\Projects\\ProficiencyTest\\ProficiencyTest\\ProficiencyTest.csproj",
+  "projectFilePath": "C:\\projects\\ProficiencyTest\\ProficiencyTest\\src\\project\\ProficiencyTest\\ProficiencyTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aukra\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\10.0.0\\microsoft.bcl.asyncinterfaces.10.0.0.nupkg.sha512",
     "C:\\Users\\aukra\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.1.2\\system.runtime.compilerservices.unsafe.6.1.2.nupkg.sha512",
